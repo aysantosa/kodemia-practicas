@@ -1,0 +1,126 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+transition:0.5s;
+font-family: 'Amiri', serif;
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+footer{
+    
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background: linear-gradient(177.96deg, rgba(255, 255, 255, 0.43) 1.72%, #6F6F6F 107.44%);
+   
+}
+
+.copy-container{
+    width:100%;
+    display: flex;
+    justify-content:row ;
+    align-items: center;
+}
+.copy{
+    font-size: 16px;
+    opacity: 0.7;
+    font-weight: 50;
+    padding: 10px;
+}
+
+.footer-links{
+    display: flex;
+   flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-family:'Raleway', sans-serif; ;
+}
+
+.footer-container{
+    height: fit-content;
+    width: 100%;
+    padding: 3rem 6rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.footer-content-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+footer .logo{
+    Width: 112px;
+    Height: 111px;
+    
+}
+
+.footer-content-container .social-media{
+    width: 200px;
+    text-decoration: none;
+     height: 45px;
+     width: 45px;
+     line-height: 45px;
+     color:black;
+     margin: 10px;
+}
+
+.links{
+    font-size: 16px;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:30px ;
+    width: 30px;
+    border: 1px solid black; 
+    border-radius: 50%;
+    margin:5px;
+}
+
+@media only screen and (max-width: 768px){
+    footer {
+        padding: 2rem;
+        display: flex;
+        position: relative;
+        flex-direction: column; 
+        height: 100vh;
+        width: 100vw; 
+        background-color: #6F6F6F;  
+    }
+    .logo {
+        position:absolute;
+        top: 1px;
+    }
+    .social-media{
+        position:absolute;
+        top:50px;
+    }
+
+    
+}
